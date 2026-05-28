@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="400" y2="0">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)"/>
+  <rect width="800" height="200" fill="url(#glow)"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#00ff88" stroke-opacity="0.1" stroke-width="0.5">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="200" y1="0" x2="200" y2="200"/>
+    <line x1="400" y1="0" x2="400" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+  </g>
+  
+  <!-- Shield icon -->
+  <path d="M400 30 L450 50 L450 100 C450 130 430 155 400 170 C370 155 350 130 350 100 L350 50 Z" fill="none" stroke="#00ff88" stroke-width="2"/>
+  <path d="M385 80 L400 95 L415 80 L400 110 Z" fill="#00ff88"/>
+  
+  <!-- Main text -->
+  <text x="400" y="185" text-anchor="middle" font-family="monospace" font-size="14" fill="#00ff88">SCOTTS</text>
+</svg>
